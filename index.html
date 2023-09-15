@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RPS Forum</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif; 
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(46, 46, 46);
+    }
+    .header {
+      background-color: #121213;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      position: sticky;
+      top: 0;
+    }
+    
+    .header-left {
+      display: flex;
+      align-items: center;
+      position: sticky;
+    }
+    
+    .header-left img {
+      height: 50px;
+      margin-right: 10px;
+    }
+    
+    .header-left h2 {
+      font-weight: normal;
+    }
+    
+    .header-right {
+      display: flex;
+      align-items: center;
+    }
+    .header-right nav{
+        margin-right: 10px;
+
+    }
+    .header-right nav ul{
+        display: flex;
+        list-style: none;
+    }
+    .header-right nav ul li{
+        margin-right: 10px;
+    }
+    .header-right nav ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    .header-right nav ul li a:hover{
+        color: #ccc;
+    }
+
+    
+    .header-left input[type="text"] {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 8px;
+      font-size: 14px;
+    }
+    
+    .header-left button {
+      background-color: #4267b2;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 8px 15px;
+      font-size: 14px;
+      margin-left: 8px; 
+    }
+    
+    .content {
+      max-width: 600px;
+      margin: 20px auto;
+    }
+    
+    .post {
+      background-color: white;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+    .post img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .react {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        top: 10px;
+    }
+    
+  </style>
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="header-left">
+      <img src="RPS Logo.pdf.png">
+      <input type="text" placeholder="Search">
+      <button>Search</button>
+    </div>
+    
+    <div class="header-right">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </nav>
+    </div>
+  </div>
+  
+  <div class="content">
+    <div class="post">
+      <h3>Eavheang</h3> 
+      <p>Threads is weird</p>
+      <img src="thread.png" width="50%">
+      <div class="react">
+        <button>Like</button>
+        <button>Comment</button>
+        <button>Share</button>
+      </div>
+    </div>
+
+    <div class="post">
+      <h3>Tey</h3>
+      <p>Carry kmeng kmeng so chir back</p>
+        <div class="react">
+            <button>Like</button>
+            <button>Comment</button>
+            <button>Share</button>
+        </div> 
+    </div>
+    <div class="post">
+        <h3>Puth</h3>
+        <p>Na 5000$ ????</p>
+          <div class="react">
+              <button>Like</button>
+              <button>Comment</button>
+              <button>Share</button>
+          </div> 
+      </div>
+      <div class="post">
+        <h3>Vuth</h3>
+        <p>Yayyyy MVP</p>
+          <div class="react">
+              <button>Like</button>
+              <button>Comment</button>
+              <button>Share</button>
+          </div> 
+      </div>
+      <div class="post">
+        <h3>Munny</h3>
+        <p>ការងារមិនធ្វើទេ ?</p>
+          <div class="react">
+              <button>Like</button>
+              <button>Comment</button>
+              <button>Share</button>
+          </div> 
+      </div>
+  </div>
+
+</body>
+</html>
